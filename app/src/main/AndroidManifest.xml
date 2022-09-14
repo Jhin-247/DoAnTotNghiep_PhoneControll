@@ -20,6 +20,9 @@
         <activity
             android:name=".screen.main.MainActivity"
             android:exported="true">
+        </activity>
+        <activity android:name=".screen.lock.LockActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
