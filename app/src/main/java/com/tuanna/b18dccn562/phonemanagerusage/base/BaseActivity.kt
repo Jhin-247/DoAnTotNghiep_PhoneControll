@@ -1,14 +1,19 @@
 package com.tuanna.b18dccn562.phonemanagerusage.base
 
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.content.ContextCompat
 import androidx.databinding.ViewDataBinding
 
 abstract class BaseActivity<VB : ViewDataBinding> : AppCompatActivity() {
     protected lateinit var mBinding: VB
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState)
+
         mBinding = getViewDataBinding()
 
         initData()
@@ -40,10 +45,16 @@ abstract class BaseActivity<VB : ViewDataBinding> : AppCompatActivity() {
     private fun removeObserve() {
     }
 
-    fun hideSupportActionBar(){
+    fun hideSupportActionBar() {
         supportActionBar?.let {
             supportActionBar!!.hide()
         }
+    }
+
+    fun setStatusBarColor(color: Int) {
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+        window.statusBarColor =
+            ContextCompat.getColor(applicationContext, color)
     }
 
 }

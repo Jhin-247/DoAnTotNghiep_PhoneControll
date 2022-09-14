@@ -8,4 +8,8 @@
     <string name="draw_to_open">Draw pattern to open app</string>
     <string name="wrong_pattern">Pattern does not match.\nRedraw</string>
     <string name="short_pattern">Pattern too short.\nAt least 3 dots</string>
+
+    <string name="all_apps">All apps</string>
+    <string name="limited">Limited</string>
+    <string name="locked">Locked</string>
 </resources>
