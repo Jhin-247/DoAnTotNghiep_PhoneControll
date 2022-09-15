@@ -8,12 +8,15 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import com.tuanna.b18dccn562.phonemanagerusage.screen.main.ActivityCallback
 import com.tuanna.b18dccn562.phonemanagerusage.screen.main.MainActivity
+import com.tuanna.b18dccn562.phonemanagerusage.screen.main.MainViewModel
 
 abstract class BaseFragment<VB : ViewDataBinding> : Fragment() {
     lateinit var mBinding: VB
     lateinit var mActivityCallback: ActivityCallback
+    protected val mMainViewModel by activityViewModels<MainViewModel>()
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
