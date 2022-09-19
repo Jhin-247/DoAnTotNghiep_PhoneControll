@@ -21,11 +21,19 @@
             app:tabTextAppearance="@style/tabLayoutTextStyle"
             app:tabTextColor="@color/text_unselected_tab_layout" />
 
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tab_layout"
+            android:layout_margin="3dp"
+            android:background="#1A000000" />
+
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_below="@id/tab_layout"
+            android:layout_below="@id/separator"
             android:layout_alignParentBottom="true" />
 
     </RelativeLayout>

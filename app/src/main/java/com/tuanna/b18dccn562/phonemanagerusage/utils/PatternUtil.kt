@@ -4,8 +4,13 @@ import android.app.Application
 import android.content.Context
 import android.util.Log
 import com.tuanna.b18dccn562.phonemanagerusage.R
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class PatternUtil(var application: Application) {
+@Singleton
+class PatternUtil @Inject constructor(
+    var application: Application
+) {
 
     companion object {
         const val TAG = "PatternUtil"

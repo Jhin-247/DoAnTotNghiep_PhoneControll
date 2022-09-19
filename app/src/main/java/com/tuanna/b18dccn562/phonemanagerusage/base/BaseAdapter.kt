@@ -39,7 +39,7 @@ abstract class BaseAdapter<T : Equatable, VB : ViewDataBinding>() :
     }
 
     abstract fun getViewHolder(inflater: LayoutInflater, parent: ViewGroup, viewType: Int): BaseHolder<VB>
-    abstract fun bindView(binding: ViewDataBinding, item: T)
+    abstract fun bindView(binding: VB, item: T)
 
     class ItemDiffCallback<T : Equatable>(
         var oldList: List<T>,

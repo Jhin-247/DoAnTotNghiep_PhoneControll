@@ -4,19 +4,28 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/bg_lock.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/bg_progress_bar_loading.xml" value="0.1315" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/bg_search_text_view.xml" value="0.135" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_home.xml" value="0.1285" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_home_selected.xml" value="0.1285" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_home_unselected.xml" value="0.1285" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_limted.xml" value="0.1735" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_lock.xml" value="0.1285" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_lock_selected.xml" value="0.1285" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_locked.xml" value="0.1735" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_time_line.xml" value="0.1285" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_time_line_selected.xml" value="0.1285" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_unlimited.xml" value="0.1735" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/ic_unlock.xml" value="0.1735" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/drawable/tab_indicator.xml" value="0.181" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/activity_lock.xml" value="0.22" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/dialog_loading.xml" value="0.2" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/fragment_all_app.xml" value="0.22" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/fragment_block.xml" value="0.2" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/fragment_time_line.xml" value="0.2" />
+        <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/item_app.xml" value="0.25" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/layout/lock_view.xml" value="0.2" />
         <entry key="..\:/WorkSpace/AndroidStudioProj/PhoneManager/app/src/main/res/menu/main_menu.xml" value="0.2" />
       </map>
